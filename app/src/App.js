@@ -1,11 +1,15 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import logo from './logo.svg';
 import './App.css';
+import QuoteData from './components/Quote'
+
 
 function App() {
+
   return (
     <div className="App">
-      <h2>Testing</h2>
+     <QuoteData/> 
+
     </div>
   );
 }
